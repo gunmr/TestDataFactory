@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Defines the default object structure for data generated for testing purposes for different objects on the platform</description>
+    <label>Default Object Setting</label>
+    <pluralLabel>Default Object Setting</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

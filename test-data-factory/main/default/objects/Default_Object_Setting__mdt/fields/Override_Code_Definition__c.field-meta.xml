@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Override_Code_Definition__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Should this setting override the definition set in the code.  Usually settings define in code take precedence as code definitions have more flexibility for setting dynamic fields such as dates.  This allows overriding code setting if needed.</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <label>Override Code Definition</label>
+    <type>Checkbox</type>
+</CustomField>

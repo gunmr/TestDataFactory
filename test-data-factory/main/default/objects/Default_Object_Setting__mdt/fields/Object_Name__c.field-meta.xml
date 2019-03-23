@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Object_Name__c</fullName>
+    <description>The object for which the default should be defined</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Object Name</label>
+    <referenceTo>EntityDefinition</referenceTo>
+    <relationshipLabel>Default_Object_Setting</relationshipLabel>
+    <relationshipName>Default_Object_Setting</relationshipName>
+    <required>false</required>
+    <type>MetadataRelationship</type>
+    <unique>false</unique>
+</CustomField>
