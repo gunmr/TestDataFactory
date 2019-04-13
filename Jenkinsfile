@@ -9,7 +9,10 @@ pipeline {
   stages {
     stage('Install SFDX') {
       steps {
-        sh '''wget https://developer.salesforce.com/media/salesforce-cli/sfdx-linux-amd64.tar.xz
+        sh '''apk update
+apk add ca-certificates
+update-ca-certificates
+wget https://developer.salesforce.com/media/salesforce-cli/sfdx-linux-amd64.tar.xz
 mkdir sfdx
 tar xJf sfdx-linux-amd64.tar.xz -C sfdx --strip-components 1
 ./sfdx/install'''
